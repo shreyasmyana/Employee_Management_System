@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sam.mlog.Activity_2">
+
+    <Button
+        android:id="@+id/addbtn"
+
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="114dp"
+        android:onClick="goToAdd_Activity"
+        android:text="@string/Add"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/deletebtn"
+
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addbtn"
+        android:layout_marginTop="21dp"
+        android:onClick="goToDelete_Activity"
+        android:text="@string/Delete"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/updatebtn1"
+
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/deletebtn"
+        android:layout_marginTop="23dp"
+        android:onClick="goToUpdate"
+        android:text="@string/Update"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/displaybtn"
+
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/deletebtn"
+        android:layout_marginTop="98dp"
+        android:text="@string/Display"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textColor="@color/TitleColor"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:text="\nLogged_in as :\t Manager"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/displaybtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Logout"
+        android:textSize="24sp"
+        android:visibility="visible"
+        tools:text="Logout" />
+</RelativeLayout>

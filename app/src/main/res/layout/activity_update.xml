@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sam.mlog.Update"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/Emp_TODO"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:layout_alignStart="@+id/Emp_sal"
+        android:layout_alignTop="@+id/textTODO"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textTODO"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Empsal_label"
+        android:layout_marginTop="18dp"
+        android:text="Enter TODO"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Empidlabel"
+        android:text="@string/Emp_id"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/Empname_label"
+        android:text="@string/Name"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/Emppos_label"
+        android:text="@string/Position"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="170dp" />
+
+    <TextView
+        android:id="@+id/Empsal_label"
+        android:text="@string/Sal"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="250dp" />
+
+    <EditText
+        android:id="@+id/Emp_id"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:layout_marginStart="38dp"
+        android:layout_alignTop="@+id/Empidlabel"
+        android:layout_toEndOf="@+id/Empidlabel" />
+
+    <EditText
+        android:id="@+id/Emp_name"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:layout_marginStart="38dp"
+        android:layout_alignTop="@+id/Empname_label"
+        android:layout_toEndOf="@+id/Empname_label" />
+
+    <EditText
+        android:id="@+id/Emp_pos"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:layout_alignTop="@+id/Emppos_label"
+        android:layout_alignStart="@+id/Emp_name" />
+
+    <EditText
+        android:id="@+id/Emp_sal"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:layout_marginStart="38dp"
+        android:layout_alignTop="@+id/Empsal_label"
+        android:layout_toEndOf="@+id/Empsal_label" />
+
+    <Button
+
+        android:id="@+id/Emp_update"
+        android:text="@string/Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToActivity_2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp" />
+
+
+
+</RelativeLayout>

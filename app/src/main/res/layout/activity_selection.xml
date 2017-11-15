@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sam.mlog.SelectionActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/Manager"
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/manager" />
+
+   <!--
+   <ImageButton
+        android:id="@+id/Employee"
+
+        style="@android:style/Widget.ImageButton"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/Manager"
+        android:layout_marginEnd="13dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/employee" />
+
+            <TextView
+        android:id="@+id/text_employee"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/text_manager"
+        android:layout_alignBottom="@+id/text_manager"
+        android:layout_alignStart="@+id/Employee"
+        android:text="EMPLOYEE"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:text="EMPLOYEE" />
+-->
+    <TextView
+        android:id="@+id/text_manager"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/Manager"
+        android:layout_below="@+id/Manager"
+        android:layout_marginTop="26dp"
+        android:text="MANAGER"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:text="MANAGER" />
+
+
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_manager"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="***WELCOME***"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="***WELCOME***" />
+
+</RelativeLayout>

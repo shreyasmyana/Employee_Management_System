@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Employee Management System</string>
+    <string name="et_username_hint"> Enter your Username </string>
+    <string name="et_password_hint"> Enter your Password </string>
+    <string name="btn_signin"> Sign In </string>
+    <string name="btn_register"> Register </string>
+    <string name="Act2_text1">Welcome To My New App</string>
+    <string name="Add">ADD Employee</string>
+    <string name="Delete">DELETE Employee</string>
+    <string name="Display">DISPLAY </string>
+    <string name="Update">UPDATE</string>
+    <string name="Emp_id">Enter Employee ID</string>
+    <string name="Name">Enter Employee Name</string>
+    <string name="Position">Enter Designation</string>
+    <string name="Sal">Enter  Salary</string>
+
+</resources>
